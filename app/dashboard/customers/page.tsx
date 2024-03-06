@@ -1,3 +1,7 @@
-export default function () {
-  return <p>customers</p>;
-}
+const CustomerPage = () => {
+  return <p>Invoices</p>;
+};
+
+CustomerPage.displayName = 'CustomerPage';
+
+export default CustomerPage;
